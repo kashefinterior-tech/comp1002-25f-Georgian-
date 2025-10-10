@@ -11,10 +11,18 @@
 	<body id="section5">
 		<!-- Page-level header -->
 		<header>
+			<img src="images/html-logo.svg" height="75" width="75" alt="HTML" />
 			<h1>HTML, CSS, and JS Fundamentals</h1>
 			<h2>Building Blocks for Web Developers</h2>
 			<!-- Global site navigation -->
-
+		<nav>
+			<ul>
+				<li><a href="index.php" title="Go to Home page">Home</a></li>
+				<li><a href="red.php" title=" all about Red Blocks">Red blocks</a></li>
+				<li><a href="blue.php" title=" all about Blue Blocks">blue blocks</a></li>
+				<li><a href="yellow.php" title=" all about Yellow Blocks">yellow blocks</a></li>
+			</ul>
+		</nav>
 		</header>
 		<!-- Page-level main content -->
 		<main>

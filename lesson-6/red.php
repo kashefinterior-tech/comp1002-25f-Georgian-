@@ -18,7 +18,10 @@
 			<nav>
 				<ul>
 <!-- STEP 5a: We are now marooned on this page with no way back to the home page except the 'Back' button - build an LI and an A element above pointing back to the index.php page -->
-
+<li><a href="index.php" title="Go to hHome page">Home</a></li>
+				<li><a href="red.php" title=" all about Red Blocks">Red blocks</a></li>
+				<li><a href="blue.php" title=" all about Blue Blocks">blue blocks</a></li>
+				<li><a href="yellow.php" title=" all about Yellow Blocks">yellow blocks</a></li>
 <!-- STEP 5b: Upload this changed file, and try it in the browser - then go back to index.php for STEP 6 -->
 				</ul>
 			</nav>
