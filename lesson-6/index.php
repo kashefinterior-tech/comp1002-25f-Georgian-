@@ -64,7 +64,11 @@
 				<figure>
 					<img src="images/mini-figure.png" width="176" height="285" alt="Mini figure">
 <!-- STEP 1a: Build an A (anchor) element that surrounds the word 'LEGO®' inside the FIGCAPTION below -->
+<<<<<<< HEAD
 					<figcaption><a href="https://www.lego.com/" rel="external" title="Go to offical lego website". >LEGO®</a> mini figure by Vanja (Public Domain)</figcaption>
+=======
+					<figcaption><a href="https://www.lego.com /">LEGO®</a> mini figure by Vanja (Public Domain)</figcaption>
+>>>>>>> f7c0c7c (added)
 					<!-- Mini figure by Vanja (Public Domain) https://openclipart.org/detail/224315/clip-is-a-brick-minifig-4 -->
 <!-- STEP 1b: Add an href attribute with the value set to the URL, "https://www.lego.com/" - this is an absolute URL -->
 <!-- STEP 1c: Since the link is pointing to somewhere other than this Web site, it is an external URL - as such, add rel="external" to the above A element start tag -->
