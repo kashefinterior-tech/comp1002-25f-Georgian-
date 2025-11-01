@@ -7,7 +7,7 @@
     </head>
     <body>
 <header> 
-    <h1>Big slise pizza </h1>
+    <h1>Big slice pizza </h1>
     <p>Order your perfect pizza below</p>
 </header>
 <main>
@@ -15,6 +15,61 @@
     <p> welcome to Big Slice Pizza</p>
     <form id="order-form" action="confirm.html" method="get" ></form>
 
+    <fieldset>
+        <legend>Pizza Details</legend>
+
+        <p>
+            <label for="qty">Numbers of pizzas</label>
+            <input id="qty" name="qty" type="number" min="1" max="50" step="1" required value="1" />
+        </p>
+        <p>
+            <label for="size">Size (slices) </label>
+            <select id="size" name="size" required>
+            <option value="" disable selected>Choose a size...</option>
+            <optgroup label="Round">
+                <option value="8">Small-8 slices</option>
+                <option value="10">Medium-10 slices</option>
+                <option value="12">Large-12 slices</option>
+            </optgroup>
+
+            <optgroup label="Square">
+                <option value="9sq">Tray-9 squares</option>
+                <option value="12sq">Party-12 squares</option>
+            </optgroup>
+            </select>
+        </p>
+        <p>
+
+        <p><strong>Crust</strong></p>
+        <p>
+            <label><input type="radio" name="crust" value="Thin" required>Thin</label><br><br/>
+
+            <label><input type="radio" name="crust" value="Regular" required>Regular</label><br><br/>
+
+            <label><input type="radio" name="crust" value="Deep dish" required>Deep dish</label><br><br/>
+
+            <label><input type="radio" name="crust" value="Gluten-free" required>Gluten-free</label>
+        </p>
+
+        <p><strong>Topping (choose as many as you like)</strong></p>
+        <p>
+            <label><input type="checkbox" name="toppings" value="Pepperoni">Pepperoni</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Mushroom">Mushroom</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Onions">Onions</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Green Pepper">Green Pepper</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Olives">Olives</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Pineapple">Pineapple</label><br><br/>
+
+            <label><input type="checkbox" name="toppings" value="Extra cheese">Extra cheese</label><br><br/>
+        </p>
+    </fieldset>
+
+    
     <fieldset>
         <legend> Costumer Info</legend>
         <p>
@@ -24,7 +79,7 @@
 
         <p>
             <label for="phone"> Phone</label>
-            <input id="phone" name="phone" type="tel" required placeholder="(123)-456-7890" autocomplete="tel" autocomplete="tel"/>
+            <input id="phone" name="phone" type="tel" required placeholder="(012)-345-6789" autocomplete="tel" autocomplete="tel"/>
         </p>
 
         <p>
