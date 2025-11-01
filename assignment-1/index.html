@@ -69,7 +69,49 @@
         </p>
     </fieldset>
 
-    
+    <fieldset>
+        <legend>Pickup or Delivery</legend>
+        <p>
+            <label><input type="radio" name="method" value="Pickup" required>Pickup</label><br></br>
+
+            <label><input type="radio" name="method" value="Delivery" required>Delivery</label><br></br>
+
+            <label><input type="radio" name="method" value="Eat-in" required>Eat-in</label><br></br>
+        </p>
+
+        <p>
+            <label for="time">Preferred time</label>
+            <input id="time" name="time" type="time" required />
+        </p>
+
+        <p>
+            <label for="city">City</label>
+            <input id="city" name="city" type="text" placeholder="Barrie" autocomplete="address-level12" />
+        </p>
+
+        <p>
+            <label for="province">Provinces</label>
+            <select id="province" name="province">
+              <option value="">—</option>
+            <option>ON</option><option>QC</option><option>BC</option>
+            <option>AB</option><option>MB</option><option>SK</option>
+             <option>NS</option><option>NB</option><option>NL</option>
+            <option>PE</option><option>YT</option><option>NT</option><option>NU</option>   
+            </select>
+        </p>
+
+        <p>
+            <label for="postal">Postal code</label>
+            <input id="postal" name="postal" type="text" placeholder="A1A 1A1" autocomplete="postal-code" />
+        </p>
+
+        <p>
+            <label for="instructions">Delivery instructions</label>
+            <input id="instructions" name="instructions" type="text" placeholder="leave at door..." />
+        </p>
+    </fieldset>
+
+
     <fieldset>
         <legend> Costumer Info</legend>
         <p>
