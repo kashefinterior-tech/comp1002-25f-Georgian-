@@ -1,3 +1,17 @@
+header{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:100px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+header {
+  padding-bottom: 80px;
+}
+
 
 body {
   margin: 0;
@@ -16,6 +30,8 @@ h1, h2, legend{
     color:#ffb347;
     text-shadow: 0 0 8px #ff8400;
 }
+
+
 
 main, section, fieldset {
     background-color: rgba(56, 51, 66, 0.342);
@@ -56,6 +72,9 @@ input[type=reset]:hover {
 }
 
 
+
+
+
 body.confrim-page main{
     background: rgba(0, 0, 0, 0.7);
 }
@@ -65,6 +84,16 @@ body.confrim-page main{
 
     color: white;
   
+}
+
+
+header h1 {
+  font-size: clamp(3rem, 8vw, 5rem) !important;
+  line-height: 1.1;
+  margin: 0 0 16px;
+  font-weight: 900;
+  color: #ffb347 !important;
+  text-shadow: 0 0 15px #ff8400;
 }
 
 
