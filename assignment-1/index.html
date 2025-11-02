@@ -4,10 +4,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cosmo Pizza</title>
+  <!--style sheet-->
   <link rel="stylesheet" href="style.css/style.css" />
   <link rel="icon" type="icon" href="images/pizzapng.parspng.com-5 (1).png" />
 </head>
+
 <body>
+    <!--Header-->
   <header>
     <h1><strong>Cosmo Pizza</strong></h1>
     <p>
@@ -18,7 +21,7 @@
     </p>
     <p>Order your perfect pizza below 🍕</p>
   </header>
-
+<!--main: order form-->
   <main>
     <div class="wrap">
     <section>
@@ -26,7 +29,8 @@
 
       
       <form id="order-form" action="confirm.html" method="get" novalidate>
-        
+        <!--pizza details fieldset-->
+        <!--number-shape-crust-topping-->
         <fieldset>
           <legend>Pizza Details</legend>
 
@@ -71,7 +75,8 @@
           </p>
         </fieldset>
 
-        
+        <!---customer info filedset-->
+        <!--full name-phone-email-order date -->
         <fieldset>
           <legend>Customer Info</legend>
 
@@ -95,7 +100,8 @@
             <input id="order-date" name="orderDate" type="date" required />
           </p>
         </fieldset>
-
+        <!--pickup or delivery fieldset-->
+        <!--preferedtime-city-province-postalcode-delivery instruction-->
        
         <fieldset>
           <legend>Pickup or Delivery</legend>
@@ -138,7 +144,7 @@
           </p>
         </fieldset>
 
-       
+       <!--special request-->
         <fieldset>
           <legend>Special Requests</legend>
           <p>
@@ -147,7 +153,7 @@
           </p>
         </fieldset>
 
-        
+        <!--action buttons-->
         <p class="actions">
           <input type="submit" value="Review Order" />
           <input type="reset" value="Reset Form" />
@@ -156,7 +162,7 @@
     </section>
     </div>
   </main>
-
+<!--footer-->
   <footer>
     <small>@ 2025 Cosmo Pizza Co.</small>
   </footer>
