@@ -47,7 +47,7 @@ header nav ul {
 
 /* STEP 4a: Apply a 1px dashed red outline around each of the LI elements inside the HEADER NAV so that we can see that each LI is a box (border-width, border-style, and border-color) */
 header nav li {
-	border: 1px dashed red;
+	/*border: 1px dashed red;*/
 	display: inline-block;
 	margin-right: 0.5em;
 }
@@ -69,7 +69,7 @@ main {
 
 /* STEP 5a: Put a 1px dotted hotpink border around MAIN SECTION in the CSS rule below so we can see the box on the screen */
 main section {
-	border: 1px dotted hotpink;
+	/*border: 1px dotted hotpink;*/
 	width: 60%;
 	padding: 1em;
 
