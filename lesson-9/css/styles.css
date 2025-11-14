@@ -2,55 +2,79 @@
 
 /* STEP 2a: Add a base font to the HTML element using a font category (serif, sans-serif, monospace, cursive, or fantasy) */
 
+/*html{
+	font-family: cursive;
+}*/
+
 /* STEP 2b: Comment out the above declaration, and add below it a font-family value that consists of a list of web-safe fonts (a font stack) */
-
-/* STEP 13: Construct a declaration for the page text using the shorthand font syntax (font-style, font-variant, font-weight, font-stretch, font-size/line-height, and font-family.) */
 html {
-
+	font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* STEP 13: Construct a declaration for the page text using the shorthand font syntax (font-style, font-variant, font-weight, font-stretch, font-size/line-height, and font-family.) */
+html{
+	font: normal normal normal 10px/1.5 Georgia, 'Times New Roman', Times, serif;
 }
 /* STEP 3: Add a base color to the HTML element */
 html {
-	background-color: white;
+	background-color: rgb(249, 242, 242);
+	color: rgb(51, 31, 3);
 
 }
 /* STEP 4a: Try a variety of absolute CSS length/size units (mm, cm, in, pt, pc) to set the font-size on the HTML element */
-html {
 
-}
+/*html {
+	font-size: 3vh;
+}*/
+
 /* STEP 4b: Now attempt a variety of relative CSS length/size units (em, ex, ch, rem, vh, vw, %) to do the same thing - use the rule you created above */
 
 /* STEP 4c: Set the root element (HTML) to 10px, then set the H1 and the H2 elements using rem - this is a common practice for controlling font sizing across a page */
 html {
-
+	font-size: 10px;
 }
 
 /* STEP 8: Apply font-variant to h1 or h2 (small-caps) */
-
+header h2{
+	font-variant: small-caps;
+}
 /* STEP 9: Apply underline, overline and strikethrough to the h1 */
-
+header h1{
+	text-decoration: overline;
+}
 /* STEP 14: Apply text-shadow to the H1 element (horizontal offset, vertical offset, blur radius, color) */
 h1 {
-
+	text-shadow: 3px 2px 0 rgb(213, 209, 204);
 }
 
 /* STEP 15: In your browser, open up the developer tools, and click on the various parts of the DOM - observe the CSS panel - that's it for now! */
 
 /* STEP 10: Modify the letter and word spacing for the h2 */
 h2 {
-
+	letter-spacing: 0.2em;
 }
 /* STEP 12: Transform the text of the h2 (none | capitalize | uppercase | lowercase | full-width) */
 h2 {
-
+	text-transform: capitalize;
 }
 /* STEP 5: Line height for paragraphs (leading) - set line-height on the MAIN P elements - this can be a unitless setting (a factor) */
-
+main p{
+	line-height: 1.5;
+}
 /* STEP 11: Change the indenting of the paragraphs */
 main p {
-
+	text-indent: 5%;
 }
 /* STEP 6: Align text left, right, center and justify for paragraphs */
 main p {
-
+	text-align: justify;
 }
 /* STEP 7: Modify bold and italics, by applying to strong and em - swap them around */
+em{
+	font-style: italic;
+	font-weight: bold;
+}
+ 
+strong{
+	font-weight: normal;
+	font-style: italic;
+}
