@@ -7,9 +7,12 @@ html{
 
 body{
     background-color: rgb(241, 227, 200, 0.9);
+    background-color: transparent;
+    border:1px solid rgb(241, 227, 200, 0.9);
     margin: 0 auto;
     min-height: 100vh;
-    padding: 20px;
+    padding: 40px;
+    border-radius: 4px;
     font-family: serif;
     max-width: 600px;
 }
