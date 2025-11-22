@@ -45,6 +45,20 @@ h1{
     text-align: left; 
 }
 
+
+.poster > div{
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.first-names{
+    top: 2%;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: #000;
+}
 .surnames{
     font-size: 2.2rem;
     font-weight: 700;
@@ -52,4 +66,64 @@ h1{
     letter-spacing: 2px;
     margin-bottom: 10px;
     color: #000;
+}
+.production {
+  top: 60%;
+  right: 6%;
+  width: auto;
+  left: auto;
+  text-align: right;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #000;
+}
+.title{
+    top: 70%;
+    left: 6%;
+    width: auto;
+    text-align: left;
+}
+.co-stars {
+  top: 85%;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #000;
+}
+.director {
+  top: 89%;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #000;
+}
+.credits-small {
+  top: 92%;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  color: #000;
+}
+.studio {
+  bottom: 3%;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+.studio span {
+  color: #b72223;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.learn-more {
+  bottom: 0.5%;
+  text-align: center;
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+.learn-more a {
+  color: #6a4b3b;
+  text-decoration: none;
 }
