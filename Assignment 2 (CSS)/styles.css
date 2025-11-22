@@ -1,8 +1,10 @@
 html{
     background-image: url("images/Gemini_Generated_Image_lrv8y3lrv8y3lrv8.png");
     background-size:cover;
-    background-position: center;
+    background-position: center top;
+    background-position: center 20%;
     background-repeat: no-repeat;
+    min-height: 100%;
 }
 
 body{
@@ -16,6 +18,8 @@ body{
     font-family: serif;
     max-width: 600px;
 }
+
+
 
 header, main, footer{
     margin-bottom: 30px;
@@ -50,15 +54,20 @@ main p{
 }
 
 h1{
-    margin-top:40px;
-    margin-bottom: 20px;
+    font-family: "Great Vibes", cursive;
+  font-size: 6rem;
+  color: #b72223;
+  margin: 60px 0 20px;
+  text-align: left;
 }
 
-h1{
-    font-size:3rem;
-    color:#b72223;
-    text-align:left;
-    margin: 40px 0 20px;
+.surnames{
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: #000;
 }
 
 main h2{
