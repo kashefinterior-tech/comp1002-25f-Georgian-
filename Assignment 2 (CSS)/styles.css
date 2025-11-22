@@ -4,3 +4,11 @@ html{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+body{
+    background-color: rgb(184, 153, 153);
+    margin: 0;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: serif;
+}
