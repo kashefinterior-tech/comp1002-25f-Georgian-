@@ -6,12 +6,12 @@ html, body {
 
 .poster {
   position: relative;
-  width: min(90vw, 700px);  
-  aspect-ratio: 2 / 3;      
-  margin: 0 auto;
+  width: 500px;  
+  height: 759px;      
+  margin: 40px auto;
   background-image: url("images/Gemini_Generated_Image_lrv8y3lrv8y3lrv8.png");
   background-size: contain;  
-  background-position: center top;
+  background-position: top center;
   background-repeat: no-repeat;
 }
 
@@ -46,6 +46,7 @@ h1{
     position: absolute;
     width: 100%;
     left: 0;
+    text-align: center;
 }
 
 .first-names,
@@ -55,26 +56,32 @@ h1{
 }
 
 .first-names { 
-    top: 2%; 
+    top: 12px; 
     text-align:center; 
-    font-size:1.1rem; letter-spacing:3px; }
+    font-size:  16px; letter-spacing:3px; 
+}
 .surnames   { 
-    top: 7%; 
+    top: 45px; 
     text-align:center; 
-    font-size:2.4rem; font-weight:700; letter-spacing:2px; }
+    font-size: 34px; 
+    font-weight:700; letter-spacing:2px; 
+}
 
 .production { 
-    top: 60%; 
-    right: 6%; l
-    eft:auto; 
-    width:auto; 
-    text-align:right; 
-    font-size:1rem; 
-    color:#000; }
+    top: 450px; 
+    right: 30px; 
+    left: auto; 
+    width: auto; 
+    text-align:right;
+    text-transform: uppercase; 
+    font-size: 14px; 
+    color:#000; 
+}
 .co-stars   { 
     top: 85%;
      text-align:center; font-size:1rem; 
-     color:#000; }
+     color:#000; 
+    }
 .director   { 
     top: 89%; 
     text-align:center; 
@@ -83,10 +90,10 @@ h1{
 }
 
 .credits-small { 
-    top: 92%; 
+    top: 705px; 
     text-align:center; 
-    font-size:0.75rem; c
-    olor:#000; 
+    font-size:0.75rem; 
+    color:#000; 
     line-height:1.2;
  }
 
@@ -102,13 +109,14 @@ h1{
     }
 
 .title{
-    top: 70%;
-  left: 6%;
+    top: 520px;
+  left: 35px;
   width: auto;
   font-family: "Great Vibes", cursive;
   font-size: 6rem;
   color: #b72223;
   text-align: left;
+  letter-spacing: 1px;
 }
 
 .learn-more {
