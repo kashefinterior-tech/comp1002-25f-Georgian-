@@ -1,59 +1,21 @@
 html{
     background-image: url("images/Gemini_Generated_Image_lrv8y3lrv8y3lrv8.png");
     background-size:cover;
-    background-position: center top;
+    background-position: top center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-body{
-    background-color: rgb(241, 227, 200, 0.9);
-    background-color: transparent;
-    border:1px solid rgb(241, 227, 200, 0.9);
-    margin: 0 auto;
-    min-height: 100vh;
-    padding: 40px;
-    border-radius: 4px;
-    font-family: serif;
-    max-width: 600px;
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: serif; 
 }
 
-
-
-header, main, footer{
-    margin-bottom: 30px;
-}
-
-header{
-    text-align: center;
-    color:#6a4b3b;
-}
-
-main section{
-    margin-bottom: 20px;
-}
-
-header p{
-    margin: 5px 0;
-    font-size: 1rem;
-    font-weight: 600;
-}
-
-main h2{
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 5px;
-}
-
-main p{
-    line-height: 1.5;
-    margin:0;
-    font-size: 0.95rem;
-}
 
 h1{
-    font-family: "Great Vibes", cursive;
+    font-family:sans-serif;
   font-size: 6rem;
   color: #b72223;
   margin: 60px 0 20px;
@@ -69,18 +31,25 @@ h1{
   color: #000;
 }
 
-main h2{
-    color: #6a4b3b;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 1rem;
-    margin-bottom: 6px;
+.poster{
+    position: relative;
+    width: 100%;
+    height: 100vh;
 }
 
-footer{
+h1{
+    font-family: "Great Vibes", cursive;
+    font-size: 6rem;
+    color: #b72223;
+    margin: 60px 0 20px;
+    text-align: left; 
+}
+
+.surnames{
+    font-size: 2.2rem;
+    font-weight: 700;
     text-align: center;
-    margin-top: 40px;
-    color:#6a4b3b;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: #000;
 }
