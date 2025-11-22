@@ -6,9 +6,22 @@ html{
 }
 
 body{
-    background-color: rgb(184, 153, 153);
-    margin: 0;
+    background-color: rgb(241, 227, 200, 0.9);
+    margin: 0 auto;
     min-height: 100vh;
     padding: 20px;
     font-family: serif;
+    max-width: 600px;
+}
+
+header, main, footer{
+    margin-bottom: 30px;
+}
+
+header{
+    text-align: center;
+}
+
+main section{
+    margin-bottom: 20px;
 }
