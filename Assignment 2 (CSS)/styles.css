@@ -76,16 +76,23 @@ html, body {
 
 
 .co-stars {
-  top: 625px;
+  top: 643px;
   font-size: 8px;
   letter-spacing: 1px;
   color: rgb(28, 24, 24);
 }
 
 .director {
-  top: 680px;
-  font-size: 13px;
-  color: black;
+  position: absolute;
+  top: 608px; 
+  right: 110px;       
+  left: auto !important;  
+  width: 100%;
+  text-align: center;
+    text-align: right !important;
+  font-size: 10px;
+  color: #b72223;
+  letter-spacing: 1px;
 }
 
 .credits-small {
