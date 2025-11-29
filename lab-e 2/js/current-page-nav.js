@@ -9,11 +9,12 @@ let linkURL;
 // STEP F: For each <a> element in the NodeList navLinks, compare the href property with the URL for the current page
 navLinks.forEach((Element) => {
     // STEP G: Grab the href property of each <a> (element)
-    linkURL=Element.href;
+    const linkURL = link.href;
     console.log(linkURL);
     // STEP H: Check for a match with the current page
     if(linkURL==pageURL){
         // STEP I: They match - so this <a> is the link for the current page
-            element.classList.add("current-page");  
+            link.classList.add("current");
+ 
     }
 });
