@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reviews &amp; Feedback – Singer Featherweight 221</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/script.js"></script>
+
+  
+</head>
+<body>
+
+  <header>
+    <div class="logo-area">
+      <img src="img/logo-singer-retro.png" alt="Singer retro logo" class="logo">
+      <h1>Singer Featherweight 221</h1>
+      <p class="tagline">Small machine, big sewing energy</p>
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Promotion</a></li>
+        <li><a href="about.html">About the Featherweight</a></li>
+        <li><a href="reviews.html" class="active">Reviews &amp; Feedback</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="company.html">The Singer Company</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <main class="content-page">
+
+    <h2>What People Say About the Featherweight 221</h2>
+    <p>
+      Here are a couple of sample reviews, and a little form where you can
+      leave your own rating and comment (for this project it’s just a front-end demo,
+      nothing is actually stored on a real server).
+    </p>
+
+    
+    <section class="existing-reviews">
+      <article class="review-card">
+        <h3>“Perfect for sewing nights”</h3>
+        <p class="review-meta">⭐️⭐️⭐️⭐️⭐️ – Mary, home sewer</p>
+        <p>
+          I bring my Featherweight to our sewing group every week.
+          It’s light enough to carry and it sews a really clean straight stitch.
+        </p>
+      </article>
+
+      <article class="review-card">
+        <h3>“Small but surprisingly strong”</h3>
+        <p class="review-meta">⭐️⭐️⭐️⭐️ – Ellen, dressmaker</p>
+        <p>
+          I honestly thought it would be more “decorative” than useful, but it’s
+          actually great for simple dressmaking and hemming. Feels solid and smooth.
+        </p>
+      </article>
+    </section>
+
+
+
+    <section class="feedback-form-section">
+      <h3>Leave a Review or Comment</h3>
+
+      
+      <form id="feedbackForm">
+        <label for="name">Name (optional):</label>
+        <input type="text" id="name" name="name">
+
+        <label for="email">Email (optional):</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com">
+
+        <fieldset class="rating-group">
+          <legend>Your rating:</legend>
+
+          <div class="star-rating" id="starRating">
+            <button type="button" data-value="1" aria-label="1 star">&#9733;</button>
+            <button type="button" data-value="2" aria-label="2 stars">&#9733;</button>
+            <button type="button" data-value="3" aria-label="3 stars">&#9733;</button>
+            <button type="button" data-value="4" aria-label="4 stars">&#9733;</button>
+            <button type="button" data-value="5" aria-label="5 stars">&#9733;</button>
+          </div>
+
+        
+          <input type="hidden" id="rating" name="rating" value="0">
+        </fieldset>
+
+        <label for="comments">Your comments:</label>
+        <textarea id="comments" name="comments" rows="4" required></textarea>
+
+        <button type="submit" class="cta-button">Send My Feedback</button>
+
+        <p id="feedbackMessage" class="feedback-message" aria-live="polite"></p>
+      </form>
+    </section>
+
+
+   
+    <section id="liveReviewList" class="live-reviews">
+      <h3>Recent Feedback (Demo Only)</h3>
+      <p class="small-note">
+        When you submit the form above, your review will show up here on this page
+        (only in your browser, just for demonstration).
+      </p>
+    </section>
+
+  </main>
+
+
+  
+  <footer>
+    <p>
+      &copy; 1951 The Singer Manufacturing Company
+      <span class="footer-note">
+        (Retro-style student micro-site – reviews here are fictional.)
+      </span>
+    </p>
+  </footer>
+
+</body>
+</html>
