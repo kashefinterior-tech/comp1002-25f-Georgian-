@@ -319,3 +319,61 @@ textarea:focus {
   outline: 2px solid #c96f3c;
   outline-offset: 1px;
 }
+/* rating stars */
+
+.rating-group legend {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.star-rating {
+  display: inline-flex;
+  gap: 0.25rem;
+  margin-top: 0.2rem;
+}
+
+.star-rating button {
+  font-size: 1.4rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0.1rem;
+  opacity: 0.35;
+  transition: opacity 0.15s ease, transform 0.1s ease;
+}
+
+.star-rating button:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.star-rating button.active {
+  opacity: 1;
+}
+
+.feedback-message {
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+  color: #1e5a5a;
+}
+
+/* live reviews */
+
+.live-reviews {
+  margin-top: 1.6rem;
+}
+
+.live-reviews h3 {
+  margin-bottom: 0.2rem;
+}
+
+.small-note {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.live-reviews article {
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px dotted #d2c39c;
+}
