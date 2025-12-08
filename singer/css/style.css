@@ -91,3 +91,84 @@ main{
     margin: 1.4rem 0;
 }
 
+/* hero in main page  */
+
+.hero{
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(1, 1fr);
+    gap: 2rem;
+    align-items: center;
+    padding: 1.6rem;
+    background-color: #fffaf0;
+    border-radius: 18px;
+    border:2px solid #e8ce8b;
+    box-shadow:  0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.hero-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.6rem;
+}
+
+.hero-text h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.6rem;
+}
+.hero-text p{
+    margin-bottom: 0.7rem;
+}
+
+.promo-highlights{
+    margin: 0.7rem 0 1rem;
+}
+
+.promo-highlights li{
+    margin-bottom: 0.25rem;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 0.4rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  border: none;
+  background-color: #c96f3c; 
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.07s ease, box-shadow 0.07s ease, background-color 0.15s ease;
+}
+
+.cta-button:hover {
+  background-color: #a55324;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.promo-message {
+  margin-top: 0.6rem;
+  font-weight: 600;
+  color: #a55324;
+}
+
+/* hero image */
+
+.hero-image img{
+    width: 100%;
+    border-radius: 12px;
+    border: 3px solid #e8ce8b;
+    display:block;
+}
+
+.hero-image figcaption{
+    margin-top: 0.35rem;
+    font-size: 0.8rem;
+    color: #555;
+}
