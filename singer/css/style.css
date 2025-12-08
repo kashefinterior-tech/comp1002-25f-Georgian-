@@ -172,3 +172,49 @@ main{
     font-size: 0.8rem;
     color: #555;
 }
+
+/* feature strip */
+
+.feature-strip {
+  margin-top: 1.8rem;
+  padding: 1.3rem 1.2rem 1.3rem;
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #e6d9b8;
+}
+
+.feature-strip h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0.8rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.feature-grid article {
+  padding: 0.7rem 0.6rem;
+  background-color: #fffaf4;
+  border-radius: 12px;
+  border: 1px solid #f0e2c3;
+}
+
+.feature-grid h4 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+.cta-strip {
+  margin-top: 1.7rem;
+  padding: 0.9rem 1rem;
+  border-radius: 14px;
+  background-color: #f6edda;
+  border: 1px dashed #e0cfa9;
+}
+
+.cta-strip h3 {
+  font-family: "Playfair Display", serif;
+  margin-bottom: 0.3rem;
+}
+/* about page */
