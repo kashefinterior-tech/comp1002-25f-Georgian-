@@ -218,3 +218,104 @@ main{
   margin-bottom: 0.3rem;
 }
 /* about page */
+.about-image {
+  margin: 1.2rem 0;
+  text-align: center;
+}
+
+.about-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 2px solid #e8ce8b;
+}
+
+.about-image figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin-top: 0.6rem;
+}
+
+.spec-table th,
+.spec-table td {
+  border: 1px solid #e1d2af;
+  padding: 0.5rem 0.7rem;
+  font-size: 0.95rem;
+}
+
+.spec-table th {
+  background-color: #f3e0be;
+  text-align: left;
+  width: 40%;
+}
+/* reviews/feedback */
+
+.existing-reviews {
+  margin-top: 1.2rem;
+}
+
+.review-card {
+  background-color: #fff;
+  border-left: 4px solid #c96f3c;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+}
+
+.review-card h3 {
+  font-size: 1.05rem;
+}
+
+.review-meta {
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0.25rem 0 0.4rem;
+}
+
+/* feedback form */
+
+.feedback-form-section {
+  margin-top: 1.8rem;
+}
+
+.feedback-form-section h3 {
+  margin-bottom: 0.5rem;
+}
+
+.feedback-form-section form {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background-color: #fffaf2;
+  border-radius: 14px;
+  border: 1px solid #e6d0ab;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+label {
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  font: inherit;
+  padding: 0.45rem 0.55rem;
+  border-radius: 6px;
+  border: 1px solid #cabb98;
+  background-color: #fff;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: 2px solid #c96f3c;
+  outline-offset: 1px;
+}
