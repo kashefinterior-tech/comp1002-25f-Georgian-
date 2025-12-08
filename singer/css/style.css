@@ -76,3 +76,18 @@ nav a:hover, nav a.active{
 
 /* general layout */
 
+main{
+    max-width: 980px;
+    margin: 1.6rem auto 2.5rem;
+    padding: 0 1rem;
+}
+
+.content-page h2{
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0.9rem;
+}
+
+.content-page section{
+    margin: 1.4rem 0;
+}
+
