@@ -22,3 +22,18 @@ a{
 a:hover {
     text-decoration: underline;
 }
+
+header{
+    background: linear-gradient(to bottom, #215d5d, #184545);
+    color: #fdf7ec;
+    padding: 1.5rem 1rem 1rem;
+    border-bottom: 4px solid #e8ce8b;
+}
+
+.logo-area{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.logo{
+    max-height: 70px;
+}
