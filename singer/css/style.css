@@ -37,3 +37,42 @@ header{
 .logo{
     max-height: 70px;
 }
+
+header h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.tagline{
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 0.3rem;
+}
+nav a{
+    display:inline-block;
+    padding: 0.45rem 0.85rem;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-size: 0.9rem;
+    color:#fdf7ec;
+    text-decoration: none;
+}
+
+nav a:hover, nav a.active{
+    background-color: #e8ce8b;
+    color: #184545;
+    border-color: #c49f4e;
+}
+
+/* general layout */
+
