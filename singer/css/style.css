@@ -13,3 +13,12 @@ body{
     background-color: #f7f7f7;
     line-height: 1.6;
 }
+
+a{
+    color: #1e5a5a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
