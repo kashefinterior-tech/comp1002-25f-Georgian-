@@ -89,3 +89,16 @@ function setupFeedbackForm(){
 }
 
 // turn a rating number into star emojis
+function makeStars(value) {
+  const num = Number(value) || 0;
+  const count = Math.max(1, Math.min(num, 5));
+  return "⭐️".repeat(count);
+}
+
+//HTML escape 
+function escapeHtml(text) {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
