@@ -29,7 +29,7 @@ function setupPromoButton() {
 
   button.addEventListener("click", () => {
     message.textContent =
-      "Intro offer: Own a Singer Featherweight 221 for just $99 with easy monthly payments! (Retro universe only.)";
+      "Intro offer: Own a Singer Featherweight 221 for just $99 with easy monthly payments! ⭐️";
   });
 }
 
