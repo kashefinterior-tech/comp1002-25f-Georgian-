@@ -103,6 +103,7 @@ main{
     border-radius: 18px;
     border:2px solid #e8ce8b;
     box-shadow:  0 4px 12px rgba(0, 0, 0, 0.05);
+    margin-bottom: 1.8rem;
 }
 
 .hero-text h2{
